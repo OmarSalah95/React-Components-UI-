@@ -1,0 +1,15 @@
+footer {
+    width: 100%;
+    display: flex;
+    margin-left: 25%;
+  }
+  footer div {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+  }
+  i {
+    width: 10.5%;
+    height: 50px;
+  }
+  
