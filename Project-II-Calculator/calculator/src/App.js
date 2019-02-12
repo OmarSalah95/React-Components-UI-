@@ -6,56 +6,58 @@ import NumberButton from './components/ButtonComponents/NumberButton';
 
 
 const App = () => {
+  
+
   return (
     <div className="calculator">
-    <CalculatorDisplay buttonStyle="display"  />
+    <CalculatorDisplay />
     <div className="button-container">
-      <div className="NumberPad">
+      <div className="number-pad">
         <ActionButton buttonStyle="action-button clear" text="Clear" />
         <div className="number-row">
           <NumberButton
-            buttonStyle="number-button"
+            buttonStyle="digits"
             text="7"
           />
           <NumberButton
-            buttonStyle="number-button"
+            buttonStyle="digits"
             text="8"
           />
           <NumberButton
-            buttonStyle="number-button"
+            buttonStyle="digits"
             text="9"
           />
         </div>
         <div className="number-row">
           <NumberButton
-            buttonStyle="number-button"
+            buttonStyle="digits"
             text="4"
           />
           <NumberButton
-            buttonStyle="number-button"
+            buttonStyle="digits"
             text="5"
           />
           <NumberButton
-            buttonStyle="number-button"
+            buttonStyle="digits"
             text="6"
           />
         </div>
         <div className="number-row">
           <NumberButton
-            buttonStyle="number-button"
+            buttonStyle="digits"
             text="1"
           />
           <NumberButton
-            buttonStyle="number-button"
+            buttonStyle="digits"
             text="2"
           />
           <NumberButton
-            buttonStyle="number-button"
+            buttonStyle="digits"
             text="3"
           />
         </div>
         <ActionButton
-         buttonStyle="number-button zero" 
+         buttonStyle="digits zero" 
          text="0"
         />
       </div>

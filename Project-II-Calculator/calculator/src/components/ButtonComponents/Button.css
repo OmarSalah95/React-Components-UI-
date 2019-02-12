@@ -1,8 +1,9 @@
 .button-container {
     display: flex;
     width: 100%;
+    padding: auto 0 ;
 }
-.NumberPad {
+.number-pad {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -14,12 +15,11 @@
     padding: 15px 0 0;
     font-size: 65px;
 }
-.NumberPad .zero {
+.number-pad .zero {
     width: 100%;
 }
-.NumberPad .clear {
+.number-pad .clear {
     font-size: 45px;
-    padding: 30px 0 0;
 }
 .number-row {
     display: flex;
@@ -28,22 +28,21 @@
 .operator-buttons {
     display: flex;
     flex-direction: column;
-    width: 26.54%;
+    width: 25%;
     text-align: center;
 }
 .operator{
-    background: crimson;
+    background: rgb(168, 2, 35);
     color: white;
     font-size: 65px;
+    height: 95px;
 }
-
-.number-button {
+.digits {
     height: 95px;
     border: 1.5px solid black;
     font-weight: bold;
     text-align: center;
     font-size: 35px;
     width: 33.33%;
-    padding: 25px 0 0;
 }
  
