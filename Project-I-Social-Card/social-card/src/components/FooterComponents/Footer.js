@@ -26,19 +26,19 @@ const Footer = () => {
   return (
           <footer>
             <div>
-             <FaComment />
+             <i><FaComment /></i>
               1
             </div>
             <div>
-            <FaSync />
+            <i><FaSync /></i>
               2
             </div>
             <div>
-              <FaHeart />
+            <i><FaHeart /></i>
               3
             </div>
             <div>
-             <FaEnvelope />
+            <i><FaEnvelope /></i>
               4
             </div>
           </footer>
