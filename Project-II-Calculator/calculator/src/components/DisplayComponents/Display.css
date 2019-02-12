@@ -1,0 +1,10 @@
+
+.calc-display {
+    background: darkslategrey;
+    color: white;
+    width: 99.9%;
+    height: 150px;
+    border: 1px solid black;
+    font-size: 5rem;
+    text-align: right;
+  }
