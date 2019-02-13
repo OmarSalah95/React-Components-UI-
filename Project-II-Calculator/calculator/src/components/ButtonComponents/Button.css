@@ -1,0 +1,48 @@
+.button-container {
+    display: flex;
+    width: 100%;
+    padding: auto 0 ;
+}
+.number-pad {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.action-button {
+    height: 95px;
+    border: 1.5px solid black;
+    text-align: center;
+    padding: 15px 0 0;
+    font-size: 65px;
+}
+.number-pad .zero {
+    width: 100%;
+}
+.number-pad .clear {
+    font-size: 45px;
+}
+.number-row {
+    display: flex;
+    width: 100%;
+  }
+.operator-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    text-align: center;
+}
+.operator{
+    background: rgb(168, 2, 35);
+    color: white;
+    font-size: 65px;
+    height: 95px;
+}
+.digits {
+    height: 95px;
+    border: 1.5px solid black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    width: 33.33%;
+}
+ 
